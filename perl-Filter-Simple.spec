@@ -20,7 +20,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 The Filter::Simple module provides a simplified interface to
 Filter::Util::Call; one that is sufficient for most common cases.
-	
+
 %description -l pl
 Modu³ Filter::Simple daje uproszczony interfejs do Filter::Util::Call,
 wystarczaj±cy w wiêkszo¶ci przypadków.
@@ -30,7 +30,7 @@ wystarczaj±cy w wiêkszo¶ci przypadków.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
