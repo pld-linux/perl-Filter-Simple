@@ -3,8 +3,8 @@
 %bcond_without	tests	# don't perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define		pdir	Filter
-%define		pnam	Simple
+%define	pdir	Filter
+%define	pnam	Simple
 Summary:	Filter::Simple Perl module - simplified source filtering
 Summary(pl):	Modu³ Perla Filter::Simple - uproszczone filtrowanie
 Name:		perl-Filter-Simple
