@@ -11,7 +11,7 @@ Name:		perl-Filter-Simple
 Version:	0.79
 Release:	1
 # same as perl
-License:	Artistic or GPL
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	a3af8a9b9c3e743afc9b6ef925011b69
