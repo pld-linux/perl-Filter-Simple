@@ -6,7 +6,7 @@
 %define		pdir	Filter
 %define		pnam	Simple
 Summary:	Filter::Simple Perl module - simplified source filtering
-Summary(pl):	Modu³ Perla Filter::Simple - uproszczone filtrowanie
+Summary(pl.UTF-8):   ModuÅ‚ Perla Filter::Simple - uproszczone filtrowanie
 Name:		perl-Filter-Simple
 Version:	0.82
 Release:	1
@@ -27,9 +27,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 The Filter::Simple module provides a simplified interface to
 Filter::Util::Call; one that is sufficient for most common cases.
 
-%description -l pl
-Modu³ Filter::Simple daje uproszczony interfejs do Filter::Util::Call,
-wystarczaj±cy w wiêkszo¶ci przypadków.
+%description -l pl.UTF-8
+ModuÅ‚ Filter::Simple daje uproszczony interfejs do Filter::Util::Call,
+wystarczajÄ…cy w wiÄ™kszoÅ›ci przypadkÃ³w.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
