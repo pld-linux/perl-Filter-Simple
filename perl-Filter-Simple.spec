@@ -9,7 +9,7 @@ Summary:	Filter::Simple Perl module - simplified source filtering
 Summary(pl.UTF-8):	Moduł Perla Filter::Simple - uproszczone filtrowanie
 Name:		perl-Filter-Simple
 Version:	0.82
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
