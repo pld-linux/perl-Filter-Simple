@@ -8,13 +8,13 @@
 Summary:	Filter::Simple Perl module - simplified source filtering
 Summary(pl.UTF-8):	Moduł Perla Filter::Simple - uproszczone filtrowanie
 Name:		perl-Filter-Simple
-Version:	0.82
-Release:	2
+Version:	0.84
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	3defebcbbc969a5b05f1d37422f86a3a
+# Source0-md5:	9b322d40b65cae70ccc3317a06b8b912
 %if %{with tests}
 BuildRequires:	perl-Filter
 %endif
