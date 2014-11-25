@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# don't perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Filter
 %define		pnam	Simple
+%include	/usr/lib/rpm/macros.perl
 Summary:	Filter::Simple Perl module - simplified source filtering
 Summary(pl.UTF-8):	Moduł Perla Filter::Simple - uproszczone filtrowanie
 Name:		perl-Filter-Simple
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	fee36e11569fd02e3a75da7d2b8ec924
+URL:		http://search.cpan.org/dist/Filter-Simple/
 %if %{with tests}
 BuildRequires:	perl-Filter
 %endif
@@ -48,7 +49,7 @@ install -d $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
-install demo/* $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
+cp -p demo/* $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
