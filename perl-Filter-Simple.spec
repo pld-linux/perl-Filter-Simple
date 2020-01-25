@@ -4,7 +4,6 @@
 
 %define		pdir	Filter
 %define		pnam	Simple
-%include	/usr/lib/rpm/macros.perl
 Summary:	Filter::Simple Perl module - simplified source filtering
 Summary(pl.UTF-8):	Moduł Perla Filter::Simple - uproszczone filtrowanie
 Name:		perl-Filter-Simple
